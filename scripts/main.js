@@ -12,4 +12,7 @@ $( document ).ready(function() {
             color: '#78c8d6'
         });
     });
+    $('.mobile-menu').click(function () {
+        $('aside').toggleClass('active');
+    })
 });
