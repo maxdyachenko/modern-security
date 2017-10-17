@@ -89,6 +89,15 @@
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'Akzidenz Grotesk Pro';
+	src: url('/assets/fonts/Akzidenz/AkzidenzGroteskPro-LightCn.eot');
+	src: url('/assets/fonts/Akzidenz/AkzidenzGroteskPro-LightCn.eot?#iefix') format('embedded-opentype'),
+	url('/assets/fonts/Akzidenz/AkzidenzGroteskPro-LightCn.woff') format('woff'),
+	url('/assets/fonts/Akzidenz/AkzidenzGroteskPro-LightCn.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
 /* reset styles */
 * {
 	box-sizing: border-box;
@@ -239,8 +248,7 @@ aside .social-group .icon i:hover {
 	text-align: center;
 }
 .number-container .number {
-	font-size: 33px;
-	line-height: 1.5;
+	font: 500 42px / 1.4 Akzidenz Grotesk Pro;
 }
 .number-container .number-text {
 	font-size: 14px;
