@@ -14,5 +14,6 @@ $( document ).ready(function() {
     });
     $('.mobile-menu').click(function () {
         $('aside').toggleClass('active');
+        $('body').toggleClass('scroll-hidden');
     })
 });
